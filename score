@@ -9,3 +9,7 @@ age quan60 = 85.69
 age ocp mean - age quan45 = 78.86
 age ocp quan45- age quan45 = 88.75
 age ocp cc_count quan45- age quan45 = 88.81
+
+
+group_age_ocp_cc_count_kp_txn_count5upincome32000up_quan45 = 88.69
+group_age_ocp_cc_count_cc_txn_cnt_group_quan45 = 89.08
