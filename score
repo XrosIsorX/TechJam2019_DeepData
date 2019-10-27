@@ -1,0 +1,11 @@
+age mode = 85.11
+
+age quan40 = 87.99
+age quan40 = 88.49
+age quan45 = 88.57
+age quan50 = 88.26
+age quan60 = 85.69
+
+age ocp mean - age quan45 = 78.86
+age ocp quan45- age quan45 = 88.75
+age ocp cc_count quan45- age quan45 = 88.81
