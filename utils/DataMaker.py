@@ -36,10 +36,11 @@ def make_merged_df(train_income_df, test_income_df, demographic_df, cc_df, kplus
     # count cc
     count_cc_txn_amt_df = merged_df[["id", "cc_txn_amt"]].groupby("id").count()
     
-    # add sum cc and count cc
+    # add sum cc, count cc and mean cc
     merged_df = merged_df.groupby("id").last()
     merged_df["cc_txn_amt"] = sum_cc_txn_amt_df["cc_txn_amt"]
     merged_df["cc_txn_cnt"] = count_cc_txn_amt_df["cc_txn_amt"]
+    merged_df["cc_txn_mean"] = merged_df["cc_txn_amt"] / merged_df["cc_txn_cnt"]
 
     # group kplus
     group_kplus_df = kplus_df.groupby("id").sum()
