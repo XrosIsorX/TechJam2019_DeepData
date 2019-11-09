@@ -30,3 +30,6 @@ q45_group_age_ocp_cc_count_cc_txn_cnt_group_kp_txn_mean_group_-q45_group_age_ocp
 q45_group_age_ocp_cc_count_cc_txn_cnt_group_-quan45 = 89.08
 q45_group_age_ocp_cc_txn_cnt_group_-quan45 = 90.29
 q45_group_age_ocp_kp_txn_mean_group_-q45_group_age_ocp-_-quan45 = 90.30
+q45_group_age_ocp_cc_txn_cnt_group_-q45_group_age_ocp-_-quan45 = 89.19
+q45_group_age_ocp_3cc_txn_cnt_group_-q45_group_age_ocp-_-quan45 = 90.30
+q45_group_age_ocp_5-100cc_txn_cnt_group_-q45_group_age_ocp-_-quan45 = 90.29
